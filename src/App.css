@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+  margin: 40px auto;
+}
+
+section {
+  display: flex;
+  height: 400px;
+  gap: 20px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+  flex: 1;
+  border-radius: 5px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+  flex: 1;
+  border-radius: 5px;
+}
+
+button {
+  cursor: pointer;
+}
